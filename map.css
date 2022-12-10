@@ -1,0 +1,37 @@
+div#map {
+	width: 779px;
+	height: 800px;
+	margin: 0 auto;
+	background-image: url(usmap.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+div.pushpin {
+	width: 24px;
+	height: 20px;
+	background-image: url(pushpin.png);
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+div.pushpin em {
+	font-family: Arial;
+	font-size: 7.5pt;
+	color: #666666;
+	font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	left: 24px;
+	white-space: nowrap;
+}
+
+div.North em {
+	color: #006600;
+}
+
+
+div.South em {
+	color: #660000;
+}
